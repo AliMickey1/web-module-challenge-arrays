@@ -46,12 +46,11 @@ Use the copy function below to do the following:
 */
 
 function copy(array){
-  newArray = [...array];
-    return newArray;
+  return [...array];
   }
   
-   copy(originalFlavors);
-  console.log(newArray);
+   console.log(copy(originalFlavors));
+
 
 
 
@@ -160,7 +159,7 @@ Use the removeFlavorByName function below to do the following:
 */
 
 function removeFlavorByName(array, string){
-  whereIs = array.indexOf(string);
+  whereIs === array.indexOf(string);
   array.splice(whereIs, 1);
   return array;
 }
