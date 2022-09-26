@@ -118,10 +118,10 @@ Use the removeLastFlavor function below to do the following:
 
 function removeLastFlavor(array){
   array.pop();
+  return array;
 }
 
 removeLastFlavor(originalFlavors);
-
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 5: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
@@ -159,8 +159,8 @@ Use the removeFlavorByName function below to do the following:
 */
 
 function removeFlavorByName(array, string){
-  whereIs === array.indexOf(string);
-  array.splice(whereIs, 1);
+
+  array.splice(array.indexOf(string), 1);
   return array;
 }
 
