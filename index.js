@@ -187,10 +187,11 @@ Use the filterByWord function below to do the following:
 */
 
 
-  const filteredArray = [];
+
 
   function filterByWord(array, string)
   {
+    let filteredArray = [];
     for(let i = 0; i < array.length; i++)
       {
     if(array[i].includes(string))
@@ -202,8 +203,7 @@ Use the filterByWord function below to do the following:
   
   }
   
-  filterByWord(originalFlavors, "Chocolate");
-    console.log(filteredArray);
+  console.log(filterByWord(originalFlavors, "Chocolate"));
 
 
 /* 💪💪💪💪💪🧁🍦🍨 STRETCH 🍨🍦🍫💪💪💪💪💪*/ 
